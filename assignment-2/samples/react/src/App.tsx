@@ -1,7 +1,5 @@
-import "./App.css";
+import { RootPage } from './component/page/RootPage';
 
-function App() {
-  return <div className="App">Please implemtn here</div>;
-}
-
-export default App;
+export const App = () => {
+  return <RootPage />;
+};
